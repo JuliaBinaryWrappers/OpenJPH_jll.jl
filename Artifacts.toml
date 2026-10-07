@@ -1,0 +1,160 @@
+[[OpenJPH]]
+arch = "aarch64"
+git-tree-sha1 = "e40527a469555463a162605e5928809b319eff24"
+os = "macos"
+
+    [[OpenJPH.download]]
+    sha256 = "90e86f0c42b91bdc6de7c61728fee480dee074ce30a30f38e44ca2906a512fc6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.aarch64-apple-darwin.tar.gz"
+[[OpenJPH]]
+arch = "aarch64"
+git-tree-sha1 = "7d753d4328a7b89f89906eafebcc677d2fd59cd0"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "f5e671712a5c2cea64fb6f0aa2e4af124f74ffeee5794476563cda6b51b00e24"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.aarch64-linux-gnu.tar.gz"
+[[OpenJPH]]
+arch = "aarch64"
+git-tree-sha1 = "d8ee81d5e78dd775434baccc999f7bd1806f8cad"
+libc = "musl"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "d53d9912f42b96a0a266cc825cc9ae55caa1fd01ec6e4efaa93b23c841980ba7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.aarch64-linux-musl.tar.gz"
+[[OpenJPH]]
+arch = "aarch64"
+git-tree-sha1 = "a05f20c0982f4860741fbeb4ebf2e532f0dc83e7"
+os = "freebsd"
+
+    [[OpenJPH.download]]
+    sha256 = "9a210b7539982fb865af83757a05da76579ee9ac43d28a1b924f2942bfaea376"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.aarch64-unknown-freebsd.tar.gz"
+[[OpenJPH]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "590cf65bea8c919e937423c9cc8821bc4bb23f6f"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "654fc0a540512cda58d9ccac46708e423b135fa048b0754fcccb8ff5278349ed"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.armv6l-linux-gnueabihf.tar.gz"
+[[OpenJPH]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5f8695263f81201690529bcc219916482c9e3778"
+libc = "musl"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "9a2809c69d44308de4eacb595833a4bd86312d501fb6233fb8d53b021987fc56"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.armv6l-linux-musleabihf.tar.gz"
+[[OpenJPH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4289b3c0c2e8e389141fa71c33d2d9d22b62e52b"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "8d43cff634d0ad7f37ffd9c2bb40701a6696178a3f99ac7f86ea1a2749de2d89"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.armv7l-linux-gnueabihf.tar.gz"
+[[OpenJPH]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f1498d976c810f13f53f37441c80745995915a2f"
+libc = "musl"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "9efcad2b078d79a1cfa1219dc456ecff27a0c5da37c33d43b6732aa9ca14ed42"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.armv7l-linux-musleabihf.tar.gz"
+[[OpenJPH]]
+arch = "i686"
+git-tree-sha1 = "fce1835d0d421277893b44609be208692d7ceded"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "d7d076fc4db22bdf168efe88153daa1711f096db80bc286d502ac70f0ebd943d"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.i686-linux-gnu.tar.gz"
+[[OpenJPH]]
+arch = "i686"
+git-tree-sha1 = "2402f4cc94f9db8bea15ade549cf4688699a2c70"
+libc = "musl"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "d11951fb5068363a892246d01d5155379575fd4119a78b663aa248287d4245d6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.i686-linux-musl.tar.gz"
+[[OpenJPH]]
+arch = "i686"
+git-tree-sha1 = "41d3e002977e22848b3b2f99ee0424ba9a033358"
+os = "windows"
+
+    [[OpenJPH.download]]
+    sha256 = "796fb461ea3af81473f140c5a63ebc7d0aea8632944aa007e718b7fd1bbf6299"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.i686-w64-mingw32.tar.gz"
+[[OpenJPH]]
+arch = "powerpc64le"
+git-tree-sha1 = "0a9a0ae192eeac8d75854c0749964358c2ad9415"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "06a38ea5956d7f57213e94a4a67af94b50bc8f1dd828af7cbf12bd329013e40b"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.powerpc64le-linux-gnu.tar.gz"
+[[OpenJPH]]
+arch = "riscv64"
+git-tree-sha1 = "ce0e4d34b4f1fc8d641388d6535abb0d570f8bf0"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "1ae10671de29685b9c91e1d1ecbef059c49ac58804bec67d46cc6f0e35461af1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.riscv64-linux-gnu.tar.gz"
+[[OpenJPH]]
+arch = "x86_64"
+git-tree-sha1 = "de3275307f0a7714214ff2a28abc671c46f04c13"
+os = "macos"
+
+    [[OpenJPH.download]]
+    sha256 = "83b1760412b50aca5de14dbc40492809e5f9de92be25e79035ce96ab62f60310"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.x86_64-apple-darwin.tar.gz"
+[[OpenJPH]]
+arch = "x86_64"
+git-tree-sha1 = "e209833f9ea7e9713919485e1779eb710dd85204"
+libc = "glibc"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "f95a44d9c6ef4a7aca02be4017a191e8d0a45a442c4ae9cb82abcd24ed40d10f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.x86_64-linux-gnu.tar.gz"
+[[OpenJPH]]
+arch = "x86_64"
+git-tree-sha1 = "3247338ea331504f0c31878731422e96ad41fee9"
+libc = "musl"
+os = "linux"
+
+    [[OpenJPH.download]]
+    sha256 = "65419319ae1d24123a273143aca3e866b04cbe8f201cccd16d5f9a8a9e9c3989"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.x86_64-linux-musl.tar.gz"
+[[OpenJPH]]
+arch = "x86_64"
+git-tree-sha1 = "068485be6544a51e52568cf4c874ab108bd55405"
+os = "freebsd"
+
+    [[OpenJPH.download]]
+    sha256 = "ec64bfd20b9e76c1141c2d95633c00ebb658d1e0c939edbf4b16df3f79cb7fd4"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.x86_64-unknown-freebsd.tar.gz"
+[[OpenJPH]]
+arch = "x86_64"
+git-tree-sha1 = "5679b4d2459a5d814b8bfe526a3ccc4c49bbdd35"
+os = "windows"
+
+    [[OpenJPH.download]]
+    sha256 = "aec9b0c16796c21d53b2f08f3901cbc28e3fde1b12317b70dc6dc505ea7b3566"
+    url = "https://github.com/JuliaBinaryWrappers/OpenJPH_jll.jl/releases/download/OpenJPH-v0.32.0+0/OpenJPH.v0.32.0.x86_64-w64-mingw32.tar.gz"
