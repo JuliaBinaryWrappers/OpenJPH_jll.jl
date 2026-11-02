@@ -3,14 +3,14 @@ export libopenjph, ojph_compress, ojph_expand
 
 using Libtiff_jll
 JLLWrappers.@generate_wrapper_header("OpenJPH")
-JLLWrappers.@declare_library_product(libopenjph, "@rpath/libopenjph.0.32.dylib")
+JLLWrappers.@declare_library_product(libopenjph, "@rpath/libopenjph.0.33.dylib")
 JLLWrappers.@declare_executable_product(ojph_compress)
 JLLWrappers.@declare_executable_product(ojph_expand)
 function __init__()
     JLLWrappers.@generate_init_header(Libtiff_jll)
     JLLWrappers.@init_library_product(
         libopenjph,
-        "lib/libopenjph.0.32.0.dylib",
+        "lib/libopenjph.0.33.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
